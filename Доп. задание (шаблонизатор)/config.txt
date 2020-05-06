@@ -1,0 +1,5 @@
+"value" = "Put string #1"
+"value1" = "Put string #2"
+"video" = "files\cat.mp4"
+"pic" = "files\starWars.jpg"
+"pic1" = "files\sw.jpg"

@@ -1,0 +1,18 @@
+div, h2, table
+{
+    width: 60%;
+}
+td
+{
+    width: auto;
+    height: 25px;
+}
+.error_red
+{
+    color: red;
+    border-color: red;
+}
+.input_text
+{
+    width: 50%;
+}

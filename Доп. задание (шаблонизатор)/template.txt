@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Шаблонизатор</title>
+</head>
+<body>
+    <h2> Пример страницы html, созданный шаблонизатором </h2>
+    <video src = {CONFIG="video"} alt = 'not found controls'> </video>
+    <img src = {IF "1" < "2" } {CONFIG="pic"} {ELSE} {CONFIG="pic1"} {ENDIF} >
+    {IF {CONFIG="value"} < {CONFIG="value"}} PART1 {ELSE} PART2 {ENDIF}
+    <br> {FILE = "files\text.txt"} <br>
+    <p> {CONFIG="value"}  </p>
+    <p> {CONFIG="value1"}  </p>
+</body>
+</html>
+
+
